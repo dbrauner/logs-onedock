@@ -1,0 +1,35 @@
+Wed Apr 12 09:40:06 2017 [Z0][ReM][D]: Req:6896 UID:0 VirtualMachinePoolInfo invoked , -2, 0, -2000, -1
+Wed Apr 12 09:40:07 2017 [Z0][VMM][D]: Message received: LOG I 92 Wed, 12 Apr 2017 09:40:07 -0300 - /var/tmp/one/vmm/onedock/deploy /var/lib/one//datastores/0/92/deployment.0 191.4.232.216 92 191.4.232.216
+
+Wed Apr 12 09:40:07 2017 [Z0][VMM][D]: Message received: LOG I 92 Wed, 12 Apr 2017 09:40:07 -0300 - sudo mount -o loop /var/tmp/one/onedock/one-92/disk.1 /var/tmp/one/onedock/one-92/disk.1.mountd
+
+Wed Apr 12 09:40:07 2017 [Z0][VMM][D]: Message received: LOG I 92 mount: block device /var/tmp/one/onedock/one-92/disk.1 is write-protected, mounting read-only
+
+Wed Apr 12 09:40:07 2017 [Z0][VMM][D]: Message received: LOG I 92 Wed, 12 Apr 2017 09:40:07 -0300 - docker run  --net none -h one-92                 --add-host one-92:127.0.1.1   --dns 191.4.128.3 --dns 8.8.8.8  --cap-add SYS_ADMIN         --security-opt apparmor:unconfined     -v /var/tmp/one/onedock/one-92/disk.1.mountd/:/mnt/ -P -v /var/lib/one:/one -td --name one-92 frontend-d:5000/one-92:0      2>&1
+
+Wed Apr 12 09:40:07 2017 [Z0][VMM][D]: Message received: LOG I 92 Wed, 12 Apr 2017 09:40:08 -0300 [DEBUG] - device eth0 created in container one-92         and attached to bridge br0
+
+Wed Apr 12 09:40:07 2017 [Z0][VMM][D]: Message received: LOG I 92 Wed, 12 Apr 2017 09:40:08 -0300 [DEBUG] - MAC 02:00:bf:04:ee:78 assigned to device eth0 in container one-92
+
+Wed Apr 12 09:40:07 2017 [Z0][VMM][D]: Message received: LOG I 92 Wed, 12 Apr 2017 09:40:08 -0300 [DEBUG] - ip 191.4.238.120/255.255.248.0 assigned to device eth0 in container one-92
+
+Wed Apr 12 09:40:07 2017 [Z0][VMM][D]: Message received: LOG I 92 Wed, 12 Apr 2017 09:40:08 -0300 [DEBUG] - gateway 191.4.232.1 set as default for eth0 in container one-92
+
+Wed Apr 12 09:40:07 2017 [Z0][VMM][D]: Message received: LOG I 92 Wed, 12 Apr 2017 09:40:08 -0300 - VNC is not defined for one-92
+
+Wed Apr 12 09:40:07 2017 [Z0][VMM][D]: Message received: LOG I 92 ExitCode: 0
+
+Wed Apr 12 09:40:07 2017 [Z0][VMM][D]: Message received: LOG I 92 Successfully execute virtualization driver operation: deploy.
+
+Wed Apr 12 09:40:07 2017 [Z0][VMM][D]: Message received: LOG I 92 ExitCode: 0
+
+Wed Apr 12 09:40:07 2017 [Z0][VMM][D]: Message received: LOG I 92 Successfully execute network driver operation: post.
+
+Wed Apr 12 09:40:07 2017 [Z0][VMM][D]: Message received: DEPLOY SUCCESS 92 one-92
+
+Wed Apr 12 09:40:09 2017 [Z0][ImM][D]: Datastore default (1) successfully monitored.
+Wed Apr 12 09:40:09 2017 [Z0][InM][D]: Monitoring datastore default (1)
+Wed Apr 12 09:40:09 2017 [Z0][InM][D]: Monitoring datastore files (2)
+Wed Apr 12 09:40:09 2017 [Z0][ImM][D]: Datastore system (0) successfully monitored.
+Wed Apr 12 09:40:09 2017 [Z0][InM][D]: Monitoring datastore onedock (101)
+Wed Apr 12 09:40:09 2017 [Z0][ReM][D]: Req:6896 UID:0 VirtualMachinePoolInfo result SUCCESS, "<VM_POOL><VM><ID>92<..."
