@@ -1,6 +1,4 @@
-0;0;0;0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;Contador,Tempo,Tempo Milisegundos,Total Hosts Ativos,Total CPU Alocada,Total CPU Usada,Total RAM Alocada,Total RAM Usada,CPU Limite Superior,CPU Limite Inferior,% Carga de CPU,Load Calculado,Threshold Inferior,Threshold Superior,Tempos de Monitoramento
-1;0;1492734041001;2;200.0;1.0;1536.0;1536.0;160.0;80.0;0.005;0.0025;0.4;0.8;;1492733997;1492733993
-0;0;0;0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;Contador,Tempo,Tempo Milisegundos,Total Hosts Ativos,Total CPU Alocada,Total CPU Usada,Total RAM Alocada,Total RAM Usada,CPU Limite Superior,CPU Limite Inferior,% Carga de CPU,Load Calculado,Threshold Inferior,Threshold Superior,Tempos de Monitoramento
+Contador;Tempo;Tempo Milisegundos;Total Hosts Ativos;Total CPU Alocada;Total CPU Usada;Total RAM Alocada;Total RAM Usada;CPU Limite Superior;CPU Limite Inferior;% Carga de CPU;Load Calculado;Threshold Inferior;Threshold Superior;Tempos de Monitoramento
 1;0;1492734070678;2;200.0;1.0;1536.0;1536.0;160.0;80.0;0.005;0.0025;0.4;0.8;;1492734023;1492734024
 2;15;1492734085673;2;200.0;1.5;1536.0;1536.0;160.0;80.0;0.0075;0.005;0.4;0.8;;1492734037;1492734039
 3;30;1492734100669;2;200.0;1.5;1536.0;1536.0;160.0;80.0;0.0075;0.0062499996;0.4;0.8;;1492734051;1492734053

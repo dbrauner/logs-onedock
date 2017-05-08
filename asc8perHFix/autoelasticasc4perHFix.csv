@@ -1,5 +1,4 @@
-0;0;0;0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;Contador,Tempo,Tempo Milisegundos,Total Hosts Ativos,Total CPU Alocada,Total CPU Usada,Total RAM Alocada,Total RAM Usada,CPU Limite Superior,CPU Limite Inferior,% Carga de CPU,Load Calculado,Threshold Inferior,Threshold Superior,Tempos de Monitoramento
-1;0;1494094199142;1;200.0;0.34;3970948.0;94208.4;160.0;80.0;0.0017;8.5E-4;0.4;0.8;;1494094027
+Contador;Tempo;Tempo Milisegundos;Total Hosts Ativos;Total CPU Alocada;Total CPU Usada;Total R6AM Alocada;Total RAM Usada;CPU Limite Superior;CPU Limite Inferior;% Carga de CPU;Load Calculado;Threshold Inferior;Threshold Superior;Tempos de Monitoramento
 2;15;1494094213606;1;200.0;0.32999998;3970948.0;102400.0;160.0;80.0;0.0016499999;0.00125;0.4;0.8;;1494094041
 3;30;1494094229346;1;200.0;0.45000002;3970948.0;110592.0;160.0;80.0;0.0022500001;0.00175;0.4;0.8;;1494094055
 4;45;1494094245970;1;200.0;13.610001;3970948.0;275456.0;160.0;80.0;0.068050005;0.034900002;0.4;0.8;;1494094072
